@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AfarmaciaApi
+namespace afarmaciaApi
 {
     public class BundleConfig
     {

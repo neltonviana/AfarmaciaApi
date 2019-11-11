@@ -8,10 +8,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using AfarmaciaApi.Providers;
-using AfarmaciaApi.Models;
+using afarmaciaApi.Providers;
+using afarmaciaApi.Models;
 
-namespace AfarmaciaApi
+namespace afarmaciaApi
 {
     public partial class Startup
     {

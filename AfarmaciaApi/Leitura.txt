@@ -1,0 +1,24 @@
+AfarmacaiApi é uma API para aplicação de pesquisa, reserva online de medicamentos para posteriormente efectuar a compra presencial mediante a apresentação da ordem fornecida via apliacação.
+===========================================================================================
+Esta API permite que qualquer aplicação possa aceder os recursos (endPoints) para efectuar o ciclo completo (Pesquisa e Reserva de Medicamentos).
+No entanto, para poder testar a API apenas deve adicionar as bases de dados que encontram-se na Pasta AppData deste projecto.
+Nota que se fizer Attach ou Restore das bases de dados deve modificar o ficheiro web.config de modo a mudar a caminho da conexão, resumidamente tem os seguintes passos para o sucesso da API:
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. Baixar o Projecto Afarmacia;
+2. Carregar os ficheiros da pasta AppData;
+ 2.1 Se fizer Attach use todos os ficheiros que estão na pasta Attach;
+ 2.2 Se fizer Restore use o Ficheiro que estão na pasta Restore;
+3. Abrir o web.config e modificar source,user id e password no trecho abaixo
+	
+    <add name="afarmaciaEntities" connectionString="metadata=res://*/Models.afarmacia.csdl|res://*/Models.afarmacia.ssdl|res://*/Models.afarmacia.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=MUNYARADZIMATON\VIANA;initial catalog=afarmacia;user id=viana;password=844168207;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+4. Faça o reuild da tua aplicação e ja pode testar sem problema usando postman/Talend Api Tester/SureUtils/etc
+5. Para ter a documentação completa dos Endpoints use o caminho....aplicacao(Nome que der ao fazer deploy ou ao correr)/Help
+ 5.1 ...Help é melhor visualizado no navegador(Browser).
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Para mais informações, pode expor suas dúvidas usando o email: neltonviana@gmail.com
+	<<<<<<<NELTON VIANA>>>>>>>
+
+

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace AfarmaciaApi.Models
+namespace afarmaciaApi.Models
 {
     // Models used as parameters to AccountController actions.
 

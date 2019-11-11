@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace AfarmaciaApi.Areas.HelpPage.ModelDescriptions
+namespace afarmaciaApi.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

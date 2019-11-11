@@ -1,4 +1,4 @@
-namespace AfarmaciaApi.Areas.HelpPage.ModelDescriptions
+namespace afarmaciaApi.Areas.HelpPage.ModelDescriptions
 {
     public class KeyValuePairModelDescription : ModelDescription
     {

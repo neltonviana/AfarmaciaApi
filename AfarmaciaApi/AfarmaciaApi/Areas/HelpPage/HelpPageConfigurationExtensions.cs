@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using AfarmaciaApi.Areas.HelpPage.ModelDescriptions;
-using AfarmaciaApi.Areas.HelpPage.Models;
+using afarmaciaApi.Areas.HelpPage.ModelDescriptions;
+using afarmaciaApi.Areas.HelpPage.Models;
 
-namespace AfarmaciaApi.Areas.HelpPage
+namespace afarmaciaApi.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

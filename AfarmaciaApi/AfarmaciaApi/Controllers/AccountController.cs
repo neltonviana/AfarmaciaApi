@@ -13,11 +13,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using AfarmaciaApi.Models;
-using AfarmaciaApi.Providers;
-using AfarmaciaApi.Results;
+using afarmaciaApi.Models;
+using afarmaciaApi.Providers;
+using afarmaciaApi.Results;
 
-namespace AfarmaciaApi.Controllers
+namespace afarmaciaApi.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

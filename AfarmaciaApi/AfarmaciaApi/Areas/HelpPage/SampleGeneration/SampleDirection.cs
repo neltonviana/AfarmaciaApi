@@ -1,4 +1,4 @@
-namespace AfarmaciaApi.Areas.HelpPage
+namespace afarmaciaApi.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

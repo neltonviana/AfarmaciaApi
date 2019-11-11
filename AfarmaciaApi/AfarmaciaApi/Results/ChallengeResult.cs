@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AfarmaciaApi.Results
+namespace afarmaciaApi.Results
 {
     public class ChallengeResult : IHttpActionResult
     {

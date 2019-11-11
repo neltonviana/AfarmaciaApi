@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using AfarmaciaApi.Areas.HelpPage.ModelDescriptions;
-using AfarmaciaApi.Areas.HelpPage.Models;
+using afarmaciaApi.Areas.HelpPage.ModelDescriptions;
+using afarmaciaApi.Areas.HelpPage.Models;
 
-namespace AfarmaciaApi.Areas.HelpPage.Controllers
+namespace afarmaciaApi.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

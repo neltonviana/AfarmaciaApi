@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace AfarmaciaApi.Controllers
+namespace afarmaciaApi.Controllers
 {
     [Authorize]
     public class ValuesController : ApiController

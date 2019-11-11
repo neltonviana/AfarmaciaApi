@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e1145eb1fc8d4881ad30eb3dafc7cfdd" Name="Diagram1">
+        <EntityTypeShape EntityType="afarmaciaModel.Assinante" Width="1.5" PointX="6" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Avenida" Width="1.5" PointX="7.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Carrinho" Width="1.5" PointX="6" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Categoria_usuario" Width="1.5" PointX="1.5" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Classificacao_farmacia" Width="1.5" PointX="9" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Comentario" Width="1.5" PointX="6" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Configuracao" Width="1.5" PointX="3.75" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Dependente" Width="1.5" PointX="6" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Distrito" Width="1.5" PointX="5.25" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Doencas" Width="1.5" PointX="12" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Empresa" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Fabricante" Width="1.5" PointX="9.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Farmacia" Width="1.5" PointX="12.75" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Grupo_medicamento" Width="1.5" PointX="9.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Log_erro" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Logs" Width="1.5" PointX="8.25" PointY="76" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Medicamento" Width="1.5" PointX="12" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Medicamento_farmacia" Width="1.5" PointX="12" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Ordem" Width="1.5" PointX="9" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Pais" Width="1.5" PointX="1.5" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Posicao_padrao" Width="1.5" PointX="6" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Provincia" Width="1.5" PointX="3" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Receita" Width="1.5" PointX="9" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Regiao" Width="1.5" PointX="0.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Relatorio" Width="1.5" PointX="3.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Reserva" Width="1.5" PointX="14.25" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguradora" Width="1.5" PointX="9.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_categoria" Width="1.5" PointX="9.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_depedente" Width="1.5" PointX="8.25" PointY="47.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_doencas" Width="1.5" PointX="14.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa" Width="1.5" PointX="9.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa_usuario" Width="1.5" PointX="12" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa_usuario_depedente" Width="1.5" PointX="11.25" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa_usuario_doencas" Width="1.5" PointX="17.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa_usuario_farmacia" Width="1.5" PointX="14.25" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_empresa_usuario_medicamento" Width="1.5" PointX="17.25" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_tipo" Width="1.5" PointX="9.75" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_usuario" Width="1.5" PointX="12" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_usuario_farmacia" Width="1.5" PointX="17.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Seguro_usuario_medicamento" Width="1.5" PointX="14.25" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Sucursal_farmacia" Width="1.5" PointX="15" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Usuario" Width="1.5" PointX="3.75" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="afarmaciaModel.Usuario_logado" Width="1.5" PointX="6" PointY="75.625" IsExpanded="true" />
+        <AssociationConnector Association="afarmaciaModel.FK_Assinante_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Avenida_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Empresa_Avenida" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Farmacia_Avenida" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguradora_Avenida" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Sucursal_farmacia_Avenida" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Carrinho_Medicamento_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Carrinho_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Configuracao_Categoria_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Usuario_Categoria_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Classificacao_farmacia_Sucursal_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Classificacao_farmacia_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Comentario_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Dependente_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_depedente_Dependente" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_depedente_Dependente" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_disitrito_provincia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Farmacia_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Sucursal_farmacia_Distrito" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_doencas_Doencas" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_doencas_Doencas" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_Empresa1" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Fabricante_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Medicamento_farmacia_Fabricante" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Sucursal_farmacia_Farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Medicamento_Grupo_medicamento" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Logs_Usuario_logado" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Medicamento_farmacia_Medicamento" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Receita_Medicamento" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_medicamento_Medicamento" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_medicamento_Medicamento" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Medicamento_farmacia_Sucursal_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Reserva_Medicamento_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Ordem_Sucursal_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Ordem_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Reserva_Ordem" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Regiao_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Posicao_padrao_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.provincia_fk_Provincia_Regiao" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Receita_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_Seguradora" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_Seguradora" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_Seguro_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_Seguro_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_depedente_Seguro_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_doencas_Seguro_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_Seguro_tipo" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_Seguro_empresa" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_depedente_Seguro_empresa_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_doencas_Seguro_empresa_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_farmacia_Seguro_empresa_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_medicamento_Seguro_empresa_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_empresa_usuario_farmacia_Sucursal_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_Seguro_tipo" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_farmacia_Seguro_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_medicamento_Seguro_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Seguro_usuario_farmacia_Sucursal_farmacia" ManuallyRouted="false" />
+        <AssociationConnector Association="afarmaciaModel.FK_Usuario_logado_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
